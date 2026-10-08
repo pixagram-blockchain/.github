@@ -12,8 +12,8 @@ The chain is a fork of [Hive](https://hive.io), so the standard Hive RPC surface
 
 | | |
 |---|---|
-| Consensus | Delegated Proof of Stake, 3-second blocks |
-| Tokens | **PIXA** (liquid), **PXS** (stable, pegged to $1 of PIXA), **VESTS** (staked) |
+| Consensus | Delegated Proof of Stake with Proof of Brain, 3-second blocks |
+| Tokens | **PXA** (PIXA TOKEN), **PXS** (PIXA SUPRA), **PXP** (PIXA POWER) |
 | Key prefix | `PIX` |
 | Public RPC | `https://api.pixagram.com` |
 | P2P seed | `api.pixagram.com:2001` |
@@ -56,6 +56,3 @@ curl -s https://api.pixagram.com -H 'Content-Type: application/json' \
 
 Witnesses are elected by stake-weighted vote and produce blocks in turn. Protocol changes ship as hardforks that activate only after enough scheduled witnesses vote for them. Community projects are funded through the **DPF** (Decentralized Proposal Fund), which receives 15 % of inflation.
 
----
-
-<sub>Pixagram SA · Zug, Switzerland</sub>
